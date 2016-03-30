@@ -1,0 +1,270 @@
+body {
+  background-color: #ECECEC;
+}
+
+.content {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.clear-fix::after,
+.clear-fix::before {
+  content: " ";
+  display:table;
+  clear: both;
+}
+
+.aside-user-info {
+  width: 250px;
+  float: left;
+  margin-right: 5px;
+}
+
+.aside-user-info .info {
+  padding: 5px 15px;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+
+.aside-user-info .info h2 {
+  font-size: 15px;
+  font-weight: bold;
+  font-family:"Times New Roman",Georgia,Serif;
+}
+
+.aside-user-info .info img {
+  display: block;
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 25px;
+}
+
+.aside-user-info .info span {
+  display: block;
+  margin: 0 auto;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 34px;
+  text-align: center;
+}
+
+.aside-user-info .info p {
+  text-align: center;
+  color: #C6C6C6;
+  font-size: 12px;
+  margin-bottom: 50px;
+}
+
+.aside-user-info .authority {
+  position: relative;
+  height: 50px;
+  background-color: #fff;
+  margin-bottom: 5px;
+  font-size: 13px;
+  color: #C8C8C8;
+  padding-left: 11px;
+}
+
+.aside-user-info .authority span {
+  display: inline-block;
+  line-height: 50px;
+}
+
+.aside-user-info .authority span:last-child {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 57px;
+  background-color: #21EF1E;
+}
+
+.aside-user-info em {
+  display: block;
+  font-size: 12px;
+  color: #C8C8C8;
+  padding: 5px 10px;
+  line-height: 50px;
+  height: 50px;
+  background-color: #fff;
+}
+
+.main-content {
+  width: 705px;
+  float: right;
+}
+
+.main-content .total-num {
+  position: relative;
+  height: 50px;
+  width: 97%;
+  background-color: #fff;
+  padding-left: 10px;
+}
+
+.main-content .total-num h2 {
+  display: inline-block;
+  margin: 0;
+  height: 100%;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Times New Roman",Georgia,Serif;
+}
+
+.main-content .total-num p {
+  position: absolute;
+  right: 97px;
+  line-height: 50px;
+  display: inline-block;
+  font-size: 12px;
+  height: 100%;
+  font-family: monospace;
+  margin: 0;
+}
+
+.main-content .total-num p span:last-child {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  left: 95px;
+}
+
+.main-content .cd-gallery {
+  padding: 6px 0;
+  width: 100%;
+}
+
+.cd-gallery .add-content {
+  width: 32%;
+  float: left;
+  margin-right: 5px;
+}
+
+.cd-gallery .add-content .add-trigger {
+  width: 100%;
+  height: 229px;
+  margin-bottom: 5px;
+  background: url('../public/Add-icon.png') no-repeat center center;
+  background-size: 26% 26%;
+  background-color: #fff;
+}
+
+.cd-gallery .add-content .total-article {
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  line-height: 60px;
+  font-size: 12px;
+}
+
+.cd-gallery .add-content .total-article span {
+  margin-left: 10px;
+}
+
+.cd-gallery .add-content .total-article b {
+  margin-left: 8px;
+  color: #eee;
+}
+
+.cd-gallery .gallery-item {
+  position: relative;
+  width: 28%;
+  height: 229px;
+  float: left;
+  padding: 18px 15px;
+  padding-top: 47px;
+  color: #C4C4C4;
+  text-align: left;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background-color: #fff;
+  background:
+      linear-gradient(to left bottom, transparent 50%, #CCC 0) 100% 0 no-repeat,
+      linear-gradient(-135deg, transparent 1.5em, #fff 0);
+  background-size: 2em 2em, auto;
+}
+
+.cd-gallery .gallery-item h2 {
+  margin: 0;
+  font-size: 15px;
+  line-height: 2;
+  color: #000;
+}
+
+.cd-gallery .gallery-item h2 + div {
+  line-height: 2.5;
+}
+
+.cd-gallery .gallery-item .view-num {
+  position: absolute;
+  display: inline-block;
+  left: 30px;
+  bottom: 6px;
+}
+
+.cd-gallery .gallery-item .view-num::before {
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: -29px;
+  width: 30px;
+  height: 30px;
+  background: url('../public/view.png') no-repeat center center;
+  background-size: 50% 50%;
+}
+
+.cd-gallery .gallery-item .editor-arti {
+  position: absolute;
+  display: inline-block;
+  right: 15px;
+  bottom: 6px;
+}
+
+.cd-gallery .gallery-item .editor-arti a {
+  text-decoration: none;
+  color: #C4C4C4;
+}
+
+.cd-gallery .gallery-item .page-num {
+  position: absolute;
+  top: -14px;
+  right: -4px;
+  font-size: 0.4px;
+  color: #000;
+}
+
+.cd-gallery .pagination {
+  position: relative;
+  float: left;
+  width: 100%;
+  bottom: 20px;
+  margin-top: 31px;
+  background-color: #fff;
+}
+
+.cd-gallery .pagination li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.cd-gallery .pagination .prev {
+  position: absolute;
+  left: 0px;
+  border-right: 5px solid #eee;
+}
+
+.cd-gallery .pagination .next {
+  position: absolute;
+  right: 0px;
+  border-left: 5px solid #eee;
+}
+
+.cd-gallery .pagination a {
+  text-decoration: none;
+  color: #B3B3B3;
+}
+
+.cd-gallery .pagination .active {
+  color: #171717;
+}
